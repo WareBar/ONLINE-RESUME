@@ -1,0 +1,424 @@
+body{
+    background-color: #FFFFFF;
+}
+
+.Resume{
+    display: flex;
+    max-width: fit-content;
+    margin-inline: auto;
+    box-shadow: 0 0 20px 5px;
+
+}
+
+.left_content{
+    background-color: #1F1E1E;
+    padding-inline: 20px;
+    
+}
+
+.ppicture{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+    
+}
+
+.ppicture img{
+    border-radius: 100%;
+    background-color: #FFFFFF;
+    padding: 5px;
+    height: 225px;
+    width: 225px;
+    
+    
+}
+
+.left_content > *{
+    color: #FFFFFF;
+    padding-bottom: 10px;
+}
+
+.contactinfo ul>*{
+    list-style-type: none;
+    margin-left: -25px;
+    padding: 5px;
+    font-family: "Raleway", sans-serif;
+}
+
+.contactinfo ul li i{
+    font-size: 20px;
+}
+
+.contactinfo ul li a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+
+.hobby ul li, .skills ul li{
+    padding: 5px;
+    font-family: "Raleway", sans-serif;
+}
+
+
+.lc-title p{
+    font-family: "Open Sans", sans-serif;
+}
+
+
+.lc-title hr{
+    position: relative;
+    border-style: hidden;
+    top: -12px;
+    height: 2px;
+    background-color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+.right_content{
+    background-color: #FFFFFF;
+    padding-inline: 40px;
+    width: 520px;
+    
+}
+
+
+.heading{
+    text-align: center;
+    
+    padding: 20px;
+}
+
+.name{
+    font-size: 30px;
+    font-family: "Oswald", sans-serif;
+    font-weight: bolder;
+}
+
+.profession{
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: lighter;
+}
+
+
+.rc-title h4{
+    font-family: "Open Sans", sans-serif;
+    font-size: 25px;
+
+}
+
+.rc-title hr{
+    position: relative;
+    border-style: hidden;
+    top: -30px;
+    height: 2px;
+    margin-bottom: -25px;
+    background-color: #1F1E1E;
+}
+
+
+.objective>*, .education>*, .language>*{
+    font-family: "Raleway", sans-serif;
+}
+
+
+.study{
+    display: flex;
+
+}
+
+.study section{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+.level{
+    font-size: 15px;
+    width: 150px;
+}
+
+.year{
+    font-size: 14px;
+
+}
+
+
+
+
+.study li{
+    list-style-type: none;
+    padding-top: 10px;
+}
+
+
+
+.school{
+    font-size: 13px;
+}
+
+.degree{
+    font-weight: bolder;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.language li{
+    list-style-type: none;
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+
+.per{
+    background-color: #FFFFFF;
+    width: 45%;
+    border-radius: 7px;
+}
+
+.value{
+    width: 75%;
+    height: 2vh;
+    background-color: black;
+    border-radius: 7px;
+}
+
+td{
+    width: 500px;
+    /* padding-inline: 10px; */
+}
+
+
+
+
+
+@media screen and (max-width:768px) {
+    .name{
+        font-size: 20px;
+        font-family: "Oswald", sans-serif;
+        font-weight: bolder;
+    }
+    
+    .profession{
+        font-size: 10px;
+        font-family: "Montserrat", sans-serif;
+        font-weight: lighter;}
+
+    .contactinfo ul li i{
+        font-size: 15px;
+    }
+
+
+    .ppicture img{
+        background-color: #FFFFFF;
+        padding: 4px;
+        height: 180px;
+        width: 180px;
+    }
+
+    .left_content > *{
+        color: #FFFFFF;
+        padding-bottom: 0px;
+    }
+
+    li{
+        font-size: 10px;
+    }
+
+    hr{
+        border-radius: 7px;
+        border-style: hidden;
+    }
+
+    .lc-title p{
+        font-size: 10px;
+        font-weight: bold;
+        text-align: center;
+        background-color: #FFFFFF;
+        color: #1F1E1E;
+        padding-inline: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        
+    }
+
+
+
+    .lc-title hr{
+        border-style: hidden;
+        opacity: 0%;
+
+    }
+
+    .rc-title h4{
+        font-size: 15px;
+
+    }
+
+    .rc-title hr{
+        top: -20px;
+        margin-bottom: -25px;
+    }
+
+    .rc-title p{
+        font-size: 10px;
+    }
+
+
+    .level{
+        font-size: 10px;
+        width: 150px;
+    }
+    
+    .year{
+        font-size: 9px;
+    
+    }
+
+
+    .school{
+        font-size: 8px;
+        font-weight: lighter;
+    }
+    
+    .degree{
+        font-size: 10px;
+        font-weight: bolder;
+        
+    }
+
+    table, td{
+        padding-top: 10px;
+    }
+}
+
+@media screen and (max-width:414px) {
+
+    .Resume{
+        flex-direction: column;
+    }
+
+    .left_content{
+        background-color: #FFFFFF;
+        padding-inline: 20px;
+    
+    }
+
+    .left_content>*{
+        color: #1F1E1E;
+    }
+
+    .hobby li, .skills li{
+        font-size: 15px;
+    }
+
+    .contactinfo ul li a{
+        text-decoration: none;
+        color: #1F1E1E;
+    }
+
+    .ppicture{
+        padding: 60px;
+    }
+    
+    .ppicture img{
+        background-color: #1F1E1E;
+        padding: 2px;
+        height: 150px;
+        width: 150px;
+        
+    }
+    
+    .lc-title p{
+        font-size: 15px;
+        background-color: #1F1E1E;
+        color: #FFFFFF;
+  
+    }
+
+    .right_content{
+        background-color: #1F1E1E;
+        padding-inline: 20px;
+        width: 250px;
+
+        
+    }
+    .right_content>*{
+        color: #FFFFFF;
+    }
+
+    .right_content .heading{
+        color: #1F1E1E;
+        position: absolute;
+        top: 215px;
+        padding-left: 45px;
+        
+    }
+
+    .right_content .name{
+        font-size: 15px;
+    }
+
+    .right_content .profession,.rc-title p, .level{
+        font-size: 8px;
+    }
+
+    .rc-title hr{
+        opacity: 0%;
+        top: 0px;
+        margin-bottom: -15px;
+    }
+    
+
+    .rc-title h4{
+        font-size: 10px;
+        font-weight: bold;
+        text-align: center;
+        background-color: #FFFFFF;
+        color: #1F1E1E;
+        padding-inline: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        
+    }
+
+
+    .objective p, .education .study, .language table{
+        padding-inline: 20px;
+    }
+
+
+    .study{
+        display: block;
+        
+    }
+
+    .study section{
+        padding: 0px;
+    }
+
+    .study .school{
+        list-style-type: disc;
+    }
+
+
+    .year{
+        font-size: 7px;
+    }
+
+
+}
