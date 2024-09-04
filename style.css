@@ -192,7 +192,7 @@ body{
 
 .value{
     width: 75%;
-    height: 2vh;
+    height: 20px;
     background-color: black;
     border-radius: 7px;
 }
