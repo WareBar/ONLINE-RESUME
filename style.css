@@ -6,7 +6,7 @@ body{
     display: flex;
     max-width: fit-content;
     margin-inline: auto;
-    box-shadow: 0 0 20px 5px;
+    box-shadow: 0 0 5px 5px;
 
 }
 
@@ -74,11 +74,6 @@ body{
     height: 2px;
     background-color: #FFFFFF;
 }
-
-
-
-
-
 
 
 
