@@ -6,7 +6,7 @@ body{
     display: flex;
     max-width: fit-content;
     margin-inline: auto;
-    box-shadow: 0 0 5px 5px;
+    box-shadow: 1px 1px 5px 2px;
 
 }
 
@@ -45,6 +45,12 @@ body{
     padding: 5px;
     font-family: "Raleway", sans-serif;
 }
+
+.contactinfo ul li{
+    display: flex;
+    gap: 10px;
+}
+
 
 .contactinfo ul li i{
     font-size: 20px;
