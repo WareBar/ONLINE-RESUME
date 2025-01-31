@@ -311,6 +311,7 @@ td{
 
     .Resume{
         flex-direction: column;
+        width:100vw;
     }
 
     .left_content{
